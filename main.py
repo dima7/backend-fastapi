@@ -7,7 +7,7 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     # This dictionary is automatically converted to JSON
-    return {"message": "Hello from somethingslow!"}
+    return {"message": "Running something slow..."}
 
 # You no longer need the 'if __name__ == "__main__"' block 
 # because 'fastapi dev' handles the execution for you.
